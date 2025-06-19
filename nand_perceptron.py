@@ -15,7 +15,6 @@ class Perceptron:
                 output = self.predict(xi)
                 self.weights += lr * (target - output) * x_aug
 
-# Данные для NAND
 X = np.array([[0,0],[0,1],[1,0],[1,1]])
 y = np.array([1, 1, 1, 0])
 
